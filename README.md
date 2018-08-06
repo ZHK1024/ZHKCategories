@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/ZHKCategroy.svg?style=flat)](https://cocoapods.org/pods/ZHKCategroy)
 [![Platform](https://img.shields.io/cocoapods/p/ZHKCategroy.svg?style=flat)](https://cocoapods.org/pods/ZHKCategroy)
 
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
