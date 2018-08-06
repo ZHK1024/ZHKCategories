@@ -1,0 +1,6 @@
+framework module ZHKCategroy {
+  umbrella header "ZHKCategroy-umbrella.h"
+
+  export *
+  module * { export * }
+}
