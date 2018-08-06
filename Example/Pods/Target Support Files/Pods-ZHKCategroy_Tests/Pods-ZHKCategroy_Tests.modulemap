@@ -1,6 +1,0 @@
-framework module Pods_ZHKCategroy_Tests {
-  umbrella header "Pods-ZHKCategroy_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
