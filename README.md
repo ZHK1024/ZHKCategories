@@ -5,24 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/ZHKCategroy.svg?style=flat)](https://cocoapods.org/pods/ZHKCategroy)
 [![Platform](https://img.shields.io/cocoapods/p/ZHKCategroy.svg?style=flat)](https://cocoapods.org/pods/ZHKCategroy)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
 ## Installation
 
-ZHKCategroy is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ZHKCategroy'
+pod 'ZHKCategroy', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
 ```
 
 ## Author
 
-389914070@qq.com, 389914070@qq.com
+ZHK1024
 
 ## License
 
