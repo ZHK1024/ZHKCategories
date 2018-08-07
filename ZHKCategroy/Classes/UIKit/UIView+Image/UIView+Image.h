@@ -10,6 +10,11 @@
 
 @interface UIView (Image)
 
+/**
+ 生成 UIView 内容的 UIImage 对象
+
+ @return 生成结果
+ */
 - (UIImage *)contentImage;
 
 @end

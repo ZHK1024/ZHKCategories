@@ -11,8 +11,6 @@
 @implementation UIView (Image)
 
 - (UIImage *)contentImage {
-    //UIGraphicsBeginImageContext(theView.bounds.size);
-    
     UIGraphicsBeginImageContextWithOptions(self.bounds.size, YES, 0.0);
     [self.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
