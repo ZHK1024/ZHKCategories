@@ -7,6 +7,7 @@
 //
 
 #import "ZHKViewController.h"
+#import "NSURL+Components.h"
 
 @interface ZHKViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // URL
+    NSLog(@"params = %@", [[NSURL URLWithString:@"http://www.baidu.com?key=search&id=111"] parameters]);
 }
 
 - (void)didReceiveMemoryWarning {
