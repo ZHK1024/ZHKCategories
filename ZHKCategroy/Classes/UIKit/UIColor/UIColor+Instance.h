@@ -10,6 +10,6 @@
 
 @interface UIColor (Instance)
 
-@property (nonatomic, strong, readonly, class) UIColor debugColor;
+@property (nonatomic, strong, readonly, class) UIColor *debugColor;
 
 @end
