@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ZHK1024/ZHKCategroy'
+  s.homepage         = 'https://github.com/ZHK1024/ZHKCategories'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZHK1024' => 'ZHK1024@foxmail.com' }
-  s.source           = { :git => 'https://github.com/ZHK1024/ZHKCategroy.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ZHK1024/ZHKCategories.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -56,7 +56,7 @@ TODO: Add long description of the pod here.
   s.default_subspecs = 'Macro'
   
   # s.resource_bundles = {
-  #   'ZHKCategories' => ['ZHKCategroy/Assets/*.png']
+  #   'ZHKCategories' => ['ZHKCategories/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
