@@ -22,7 +22,7 @@ pod 'ZHKCategories', :git => 'https://github.com/ZHK1024/ZHKCategories.git'
 pod 'ZHKCategories/UIKit', :git => 'https://github.com/ZHK1024/ZHKCategories.git'
 # Foundation
 pod 'ZHKCategories/Foundation', :git => 'https://github.com/ZHK1024/ZHKCategories.git'
-MBPprogressHUD
+# MBPprogressHUD
 pod 'ZHKCategories/MBPprogressHUD', :git => 'https://github.com/ZHK1024/ZHKCategories.git'
 ```
 
