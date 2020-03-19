@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "ZHKCategroy_Example.app"
-               BlueprintName = "ZHKCategroy_Example"
-               ReferencedContainer = "container:ZHKCategroy.xcodeproj">
+               BuildableName = "ZHKCategories_Example.app"
+               BlueprintName = "ZHKCategories_Example"
+               ReferencedContainer = "container:ZHKCategories.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "ZHKCategroy_Tests.xctest"
-               BlueprintName = "ZHKCategroy_Tests"
-               ReferencedContainer = "container:ZHKCategroy.xcodeproj">
+               BuildableName = "ZHKCategories_Tests.xctest"
+               BlueprintName = "ZHKCategories_Tests"
+               ReferencedContainer = "container:ZHKCategories.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ZHKCategroy_Example.app"
-            BlueprintName = "ZHKCategroy_Example"
-            ReferencedContainer = "container:ZHKCategroy.xcodeproj">
+            BuildableName = "ZHKCategories_Example.app"
+            BlueprintName = "ZHKCategories_Example"
+            ReferencedContainer = "container:ZHKCategories.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ZHKCategroy_Example.app"
-            BlueprintName = "ZHKCategroy_Example"
-            ReferencedContainer = "container:ZHKCategroy.xcodeproj">
+            BuildableName = "ZHKCategories_Example.app"
+            BlueprintName = "ZHKCategories_Example"
+            ReferencedContainer = "container:ZHKCategories.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "ZHKCategroy_Example.app"
-            BlueprintName = "ZHKCategroy_Example"
-            ReferencedContainer = "container:ZHKCategroy.xcodeproj">
+            BuildableName = "ZHKCategories_Example.app"
+            BlueprintName = "ZHKCategories_Example"
+            ReferencedContainer = "container:ZHKCategories.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

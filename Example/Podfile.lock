@@ -4,30 +4,28 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - ZHKCategroy (0.1.0):
-    - ZHKCategroy/Macro (= 0.1.0)
-  - ZHKCategroy/Foundation (0.1.0)
-  - ZHKCategroy/Macro (0.1.0)
-  - ZHKCategroy/UIKit (0.1.0)
+  - ZHKCategories (0.1.0):
+    - ZHKCategories/Macro (= 0.1.0)
+  - ZHKCategories/Macro (0.1.0)
+  - ZHKCategories/UIKit (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - ZHKCategroy (from `../`)
-  - ZHKCategroy/Foundation (from `../`)
-  - ZHKCategroy/UIKit (from `../`)
+  - ZHKCategories (from `../`)
+  - ZHKCategories/UIKit (from `../`)
 
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
-  ZHKCategroy:
+  ZHKCategories:
     :path: "../"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  ZHKCategroy: 4e68f1fb0acf247086d2e4964b0269a61d70511f
+  ZHKCategories: ecaf3d6712c78e46c29e6b10c76748cca3d58d89
 
-PODFILE CHECKSUM: da80a7d3550cb5721d2cd666d8b16d6b2738945d
+PODFILE CHECKSUM: 92cb11d3528063be094e89f9011e415b2c1d38cb
 
 COCOAPODS: 1.9.0.beta.2

@@ -1,4 +1,4 @@
-# ZHKCategroy
+# ZHKCategories
 
 [![CI Status](https://img.shields.io/travis/TongJunfeng/ZHKCategroy.svg?style=flat)](https://travis-ci.org/TongJunfeng/ZHKCategroy)
 [![Version](https://img.shields.io/cocoapods/v/ZHKCategroy.svg?style=flat)](https://cocoapods.org/pods/ZHKCategroy)
@@ -13,23 +13,23 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-ZHKCategroy is available through [CocoaPods](https://cocoapods.org). To install
+ZHKCategories is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ZHKCategroy', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
+pod 'ZHKCategories', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
 # UIKit
-pod 'ZHKCategroy/UIKit', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
+pod 'ZHKCategories/UIKit', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
 # Foundation
-pod 'ZHKCategroy/Foundation', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
+pod 'ZHKCategories/Foundation', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
 MBPprogressHUD
-pod 'ZHKCategroy/MBPprogressHUD', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
+pod 'ZHKCategories/MBPprogressHUD', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
 ```
 
 ## Author
 
-TongJunfeng, 389914070@qq.com
+ZHK1024, ZHK1024@foxmail.com
 
 ## License
 
-ZHKCategroy is available under the MIT license. See the LICENSE file for more info.
+ZHKCategories is available under the MIT license. See the LICENSE file for more info.

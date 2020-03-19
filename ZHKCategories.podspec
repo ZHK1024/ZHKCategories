@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ZHKCategroy'
+  s.name             = 'ZHKCategories'
   s.version          = '0.1.0'
   s.summary          = 'A short description of ZHKCategroy.'
 
@@ -30,33 +30,33 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZHKCategroy/Classes/**'
+  s.source_files = 'ZHKCategories/Classes/**'
   
   # MBProgressHUD
   s.subspec 'MBPprogressHUD' do |smb|
-    smb.source_files = 'ZHKCategroy/Classes/MBProgressHUD/**/**'
+    smb.source_files = 'ZHKCategories/Classes/MBProgressHUD/**/**'
     smb.dependency 'MBProgressHUD'
   end
   
   # UIKit
   s.subspec 'UIKit' do |suk|
-    suk.source_files = 'ZHKCategroy/Classes/UIKit/**/**'
+    suk.source_files = 'ZHKCategories/Classes/UIKit/**/**'
   end
   
   # Foundation
   s.subspec 'Foundation' do |sf|
-    sf.source_files = 'ZHKCategroy/Classes/Foundation/**/**'
+    sf.source_files = 'ZHKCategories/Classes/Foundation/**/**'
   end
   
   # Macro
   s.subspec 'Macro' do |sm|
-    sm.source_files = 'ZHKCategroy/Classes/Macros/**'
+    sm.source_files = 'ZHKCategories/Classes/Macros/**'
   end
   
   s.default_subspecs = 'Macro'
   
   # s.resource_bundles = {
-  #   'ZHKCategroy' => ['ZHKCategroy/Assets/*.png']
+  #   'ZHKCategories' => ['ZHKCategroy/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
