@@ -24,13 +24,36 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/ZHK1024/ZHKCategroy'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ZHK1024' => 'ZHK1024' }
+  s.author           = { 'ZHK1024' => 'ZHK1024@foxmail.com' }
   s.source           = { :git => 'https://github.com/ZHK1024/ZHKCategroy.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZHKCategroy/Classes/**/*'
+  s.source_files = 'ZHKCategroy/Classes/**'
+  
+  # MBProgressHUD
+  s.subspec 'MBPprogressHUD' do |smb|
+    smb.source_files = 'ZHKCategroy/Classes/MBProgressHUD/**/**'
+    smb.dependency 'MBProgressHUD'
+  end
+  
+  # UIKit
+  s.subspec 'UIKit' do |suk|
+    suk.source_files = 'ZHKCategroy/Classes/UIKit/**/**'
+  end
+  
+  # Foundation
+  s.subspec 'Foundation' do |sf|
+    sf.source_files = 'ZHKCategroy/Classes/Foundation/**/**'
+  end
+  
+  # Macro
+  s.subspec 'Macro' do |sm|
+    sm.source_files = 'ZHKCategroy/Classes/Macros/**'
+  end
+  
+  s.default_subspecs = 'Macro'
   
   # s.resource_bundles = {
   #   'ZHKCategroy' => ['ZHKCategroy/Assets/*.png']
@@ -38,6 +61,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'MBProgressHUD', '~> 1.1.0'
-
+  # s.dependency 'AFNetworking', '~> 2.3'
 end

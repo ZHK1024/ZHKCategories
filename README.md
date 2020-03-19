@@ -1,6 +1,6 @@
 # ZHKCategroy
 
-[![CI Status](https://img.shields.io/travis/389914070@qq.com/ZHKCategroy.svg?style=flat)](https://travis-ci.org/389914070@qq.com/ZHKCategroy)
+[![CI Status](https://img.shields.io/travis/TongJunfeng/ZHKCategroy.svg?style=flat)](https://travis-ci.org/TongJunfeng/ZHKCategroy)
 [![Version](https://img.shields.io/cocoapods/v/ZHKCategroy.svg?style=flat)](https://cocoapods.org/pods/ZHKCategroy)
 [![License](https://img.shields.io/cocoapods/l/ZHKCategroy.svg?style=flat)](https://cocoapods.org/pods/ZHKCategroy)
 [![Platform](https://img.shields.io/cocoapods/p/ZHKCategroy.svg?style=flat)](https://cocoapods.org/pods/ZHKCategroy)
@@ -13,14 +13,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+ZHKCategroy is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ZHKCategroy', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
+pod 'ZHKCategroy'
 ```
 
 ## Author
 
-ZHK1024
+TongJunfeng, 389914070@qq.com
 
 ## License
 

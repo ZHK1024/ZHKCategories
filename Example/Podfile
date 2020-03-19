@@ -1,11 +1,16 @@
 use_frameworks!
 
-target 'ZHKCategroy_Example' do
-  pod 'ZHKCategroy', :path => '../'
+platform :ios, '8.0'
 
+target 'ZHKCategroy_Example' do
+  
+  pod 'ZHKCategroy', :path => '../'
+  pod 'ZHKCategroy/UIKit', :path => '../'
+  pod 'ZHKCategroy/Foundation', :path => '../'
+  
   target 'ZHKCategroy_Tests' do
     inherit! :search_paths
 
-    
+    pod 'FBSnapshotTestCase'
   end
 end
