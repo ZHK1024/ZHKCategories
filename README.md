@@ -17,13 +17,13 @@ ZHKCategories is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ZHKCategories', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
+pod 'ZHKCategories', :git => 'https://github.com/ZHK1024/ZHKCategories.git'
 # UIKit
-pod 'ZHKCategories/UIKit', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
+pod 'ZHKCategories/UIKit', :git => 'https://github.com/ZHK1024/ZHKCategories.git'
 # Foundation
-pod 'ZHKCategories/Foundation', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
+pod 'ZHKCategories/Foundation', :git => 'https://github.com/ZHK1024/ZHKCategories.git'
 MBPprogressHUD
-pod 'ZHKCategories/MBPprogressHUD', :git => 'https://github.com/ZHK1024/ZHKCategroy.git'
+pod 'ZHKCategories/MBPprogressHUD', :git => 'https://github.com/ZHK1024/ZHKCategories.git'
 ```
 
 ## Author
